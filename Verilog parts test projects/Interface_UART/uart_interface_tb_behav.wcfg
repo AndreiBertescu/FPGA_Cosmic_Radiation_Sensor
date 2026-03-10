@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="uart_wrapper_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="uart_wrapper_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="54.300001 us"></ZoomEndTime>
+      <Cursor1Time time="4.425000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="110"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/uart_wrapper_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/DUV/uart_block_0/baud_clk" type="logic">
+      <obj_property name="ElementShortName">baud_clk</obj_property>
+      <obj_property name="ObjectShortName">baud_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/reset_i" type="logic">
+      <obj_property name="ElementShortName">reset_i</obj_property>
+      <obj_property name="ObjectShortName">reset_i</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider13">
+      <obj_property name="label">TX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/data_i" type="array">
+      <obj_property name="ElementShortName">data_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/DUV/data_tx" type="array">
+      <obj_property name="ElementShortName">data_tx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_tx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/send_posedge_i" type="logic">
+      <obj_property name="ElementShortName">send_posedge_i</obj_property>
+      <obj_property name="ObjectShortName">send_posedge_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/DUV/send_data_posedge" type="logic">
+      <obj_property name="ElementShortName">send_data_posedge</obj_property>
+      <obj_property name="ObjectShortName">send_data_posedge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/DUV/clear_to_send" type="logic">
+      <obj_property name="ElementShortName">clear_to_send</obj_property>
+      <obj_property name="ObjectShortName">clear_to_send</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/is_full_tx" type="logic">
+      <obj_property name="ElementShortName">is_full_tx</obj_property>
+      <obj_property name="ObjectShortName">is_full_tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/DUV/is_empty_tx" type="logic">
+      <obj_property name="ElementShortName">is_empty_tx</obj_property>
+      <obj_property name="ObjectShortName">is_empty_tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/tx" type="logic">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider12">
+      <obj_property name="label">RX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/data_o" type="array">
+      <obj_property name="ElementShortName">data_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/read_posedge_i" type="logic">
+      <obj_property name="ElementShortName">read_posedge_i</obj_property>
+      <obj_property name="ObjectShortName">read_posedge_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/DUV/is_full_rx" type="logic">
+      <obj_property name="ElementShortName">is_full_rx</obj_property>
+      <obj_property name="ObjectShortName">is_full_rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/is_empty_rx" type="logic">
+      <obj_property name="ElementShortName">is_empty_rx</obj_property>
+      <obj_property name="ObjectShortName">is_empty_rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/rx" type="logic">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider14">
+      <obj_property name="label">OTHER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/DUV/uart_block_0/send_data_posedge_baud" type="logic">
+      <obj_property name="ElementShortName">send_data_posedge_baud</obj_property>
+      <obj_property name="ObjectShortName">send_data_posedge_baud</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/DUV/uart_block_0/rx_samples" type="array">
+      <obj_property name="ElementShortName">rx_samples[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_samples[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/DUV/uart_block_0/shift_reg_rx" type="array">
+      <obj_property name="ElementShortName">shift_reg_rx[9:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_reg_rx[9:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/DUV/uart_block_0/counter_rx" type="array">
+      <obj_property name="ElementShortName">counter_rx[3:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_rx[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/DUV/uart_block_0/receiving_data" type="logic">
+      <obj_property name="ElementShortName">receiving_data</obj_property>
+      <obj_property name="ObjectShortName">receiving_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/DUV/uart_block_0/parity_rx" type="logic">
+      <obj_property name="ElementShortName">parity_rx</obj_property>
+      <obj_property name="ObjectShortName">parity_rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/uart_wrapper_tb/DUV/uart_block_0/baud_clk" type="logic">
+      <obj_property name="ElementShortName">baud_clk</obj_property>
+      <obj_property name="ObjectShortName">baud_clk</obj_property>
+   </wvobject>
+</wave_config>

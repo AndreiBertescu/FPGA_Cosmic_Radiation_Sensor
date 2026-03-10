@@ -1,0 +1,2 @@
+ecc_0_d.v,verilog,xil_defaultlib,../../../../Detector_unit_V5_Simplified.gen/sources_1/ip/ecc_0_d/sim/ecc_0_d.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

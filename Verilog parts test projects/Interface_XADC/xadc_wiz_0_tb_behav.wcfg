@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="xadc_wrapper_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="xadc_wrapper_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="119.500001 us"></ZoomEndTime>
+      <Cursor1Time time="14.315000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="227"></NameColumnWidth>
+      <ValueColumnWidth column_width="114"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/xadc_wrapper_tb/DUV/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xadc_wrapper_tb/DUV/reset_i" type="logic">
+      <obj_property name="ElementShortName">reset_i</obj_property>
+      <obj_property name="ObjectShortName">reset_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xadc_wrapper_tb/DUV/vp_i" type="logic">
+      <obj_property name="ElementShortName">vp_i</obj_property>
+      <obj_property name="ObjectShortName">vp_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xadc_wrapper_tb/DUV/vn_i" type="logic">
+      <obj_property name="ElementShortName">vn_i</obj_property>
+      <obj_property name="ObjectShortName">vn_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xadc_wrapper_tb/DUV/den_in" type="logic">
+      <obj_property name="ElementShortName">den_in</obj_property>
+      <obj_property name="ObjectShortName">den_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xadc_wrapper_tb/DUV/daddr_in" type="array">
+      <obj_property name="ElementShortName">daddr_in[6:0]</obj_property>
+      <obj_property name="ObjectShortName">daddr_in[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xadc_wrapper_tb/DUV/channel_out" type="array">
+      <obj_property name="ElementShortName">channel_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">channel_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xadc_wrapper_tb/DUV/do_out" type="array">
+      <obj_property name="ElementShortName">do_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">do_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xadc_wrapper_tb/DUV/drdy_out" type="logic">
+      <obj_property name="ElementShortName">drdy_out</obj_property>
+      <obj_property name="ObjectShortName">drdy_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xadc_wrapper_tb/DUV/busy_out" type="logic">
+      <obj_property name="ElementShortName">busy_out</obj_property>
+      <obj_property name="ObjectShortName">busy_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xadc_wrapper_tb/DUV/eoc_out" type="logic">
+      <obj_property name="ElementShortName">eoc_out</obj_property>
+      <obj_property name="ObjectShortName">eoc_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xadc_wrapper_tb/DUV/temp_o" type="array">
+      <obj_property name="ElementShortName">temp_o[11:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_o[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xadc_wrapper_tb/DUV/vcc_int_o" type="array">
+      <obj_property name="ElementShortName">vcc_int_o[11:0]</obj_property>
+      <obj_property name="ObjectShortName">vcc_int_o[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xadc_wrapper_tb/DUV/vcc_aux_o" type="array">
+      <obj_property name="ElementShortName">vcc_aux_o[11:0]</obj_property>
+      <obj_property name="ObjectShortName">vcc_aux_o[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xadc_wrapper_tb/DUV/vp_vn_o" type="array">
+      <obj_property name="ElementShortName">vp_vn_o[11:0]</obj_property>
+      <obj_property name="ObjectShortName">vp_vn_o[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xadc_wrapper_tb/DUV/temp_warning_o" type="logic">
+      <obj_property name="ElementShortName">temp_warning_o</obj_property>
+      <obj_property name="ObjectShortName">temp_warning_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xadc_wrapper_tb/DUV/temp_alarm_o" type="logic">
+      <obj_property name="ElementShortName">temp_alarm_o</obj_property>
+      <obj_property name="ObjectShortName">temp_alarm_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xadc_wrapper_tb/DUV/vcc_int_alarm_o" type="logic">
+      <obj_property name="ElementShortName">vcc_int_alarm_o</obj_property>
+      <obj_property name="ObjectShortName">vcc_int_alarm_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/xadc_wrapper_tb/DUV/vcc_aux_alarm_o" type="logic">
+      <obj_property name="ElementShortName">vcc_aux_alarm_o</obj_property>
+      <obj_property name="ObjectShortName">vcc_aux_alarm_o</obj_property>
+   </wvobject>
+</wave_config>

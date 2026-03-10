@@ -1,0 +1,13 @@
+Product Type 				- Aerospace							- $16.20
+PCB Color 					- Purple							- $4.80
+Surface Finish 				- ENIG								- $16.40
+Inner Copper Weight 		- 0.5oz/1oz							- $0/$16.02
+Specify Stackup 			- Yes								-
+Layer Stackup 				- JLC041611-7628/JLC04161H-7628 (first option)
+Via Covering 				- Epoxy Filled & Capped				- $16.32
+Min via hole size/diameter 	- 0.2mm/(0.3/0.35mm)				- $16.63
+Confirm Production file 	- Yes								-
+Mark on PCB 				- Order Number(Specify Position)	-
+Edge Plating 				- No/Yes?							- $0/$50.18
+Shipping														- $24.63
+Total PCB Build													- $81.68/$147.88

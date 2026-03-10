@@ -1,0 +1,203 @@
+\documentclass[a4paper,12pt]{report}
+\renewcommand\thesection{\arabic{section}}
+\renewcommand{\contentsname}{Cuprins}
+\renewcommand{\figurename}{Figura}
+\renewcommand{\tablename}{Tabel}
+\usepackage{amsmath}
+\usepackage{rotating}
+\usepackage{listings}
+\usepackage{lipsum}  
+
+
+\setcounter{tocdepth}{6}
+\setcounter{secnumdepth}{6}
+
+\usepackage{url}
+\usepackage[backend=bibtex,style=numeric,citestyle=numeric,backref=true,sorting=none]{biblatex}
+\addbibresource{bibliography.bib}
+
+\usepackage{indentfirst}
+\usepackage[nobottomtitles*]{titlesec}
+
+\newcommand*{\justifyheading}{\raggedleft}
+\titleformat{\section}{\normalfont\Large\justifyheading}{\thesection}{18pt}{}
+
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\graphicspath{ {./images/} }
+
+\usepackage[center]{caption}
+\usepackage{subcaption}
+
+\usepackage[margin=3.9cm]{geometry}
+
+
+\usepackage{listings}
+\usepackage{color}
+\usepackage{float}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.96,0.96,0.96}
+
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{blue},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\fontsize{10}{10}\selectfont\ttfamily,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=2pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\usepackage{pythonhighlight}
+
+\usepackage{fontspec}% -> Schimbat compilator in LuaLatex
+\setmainfont{[UTSans-Regular.otf]}
+\usepackage{setspace}
+\usepackage{tocloft}
+\setstretch{1} 
+
+\begin{document}
+	
+\include{./cover/cover}
+\include{./cover/innercover}
+\newpage
+\setcounter{page}{2}
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+\renewcommand{\bibname}{Bibliografie}
+\renewcommand\lstlistlistingname{\normalsize{CODURI SURSĂ}}
+\renewcommand{\lstlistingname}{\normalsize{Secvență de Cod}}
+\renewcommand{\listfigurename}{FIGURI}
+\renewcommand{\cftloftitlefont}{\normalsize}
+\renewcommand{\cftfigfont}{\normalsize}
+\renewcommand{\cftfigpagefont}{\normalsize}
+\renewcommand{\listtablename}{TABELE}
+\renewcommand{\cftlottitlefont}{\normalsize}
+\renewcommand{\cfttabfont}{\normalsize}
+\renewcommand{\cfttabpagefont}{\normalsize}
+
+% acestea sunt actualizate in mod automat, folosind table, figure si lstlisting
+\section*{Lista de figuri, tabele și coduri sursă}
+\addcontentsline{toc}{section}{Lista de figuri, tabele și coduri sursă}
+
+\begingroup
+\let\clearpage\relax
+\listoffigures
+\let\clearpage\relax
+\listoftables
+\let\clearpage\relax
+\lstlistoflistings
+\setcounter{page}{5}
+\endgroup
+
+
+\clearpage
+
+% trebuie completata manual
+\section*{Lista de acronime}
+\addcontentsline{toc}{section}{Lista de acronime}
+
+% (se vor scrie toate prescurtările utilizate in ordine alfabetică)
+
+\noindent 
+AI - Artificial Intelligence; \\
+ASCII - American Standard Code for Information Interchange; \\
+
+\clearpage
+
+
+\section{Sectiune}
+
+\lipsum[2-4]
+% folositi clear page pentru a incepe fiecare sectiune pe o pagina noua 
+\clearpage
+
+
+\section{Alta sectiune}
+
+\subsection{Subsectiune}
+
+\lipsum[2-4]
+
+\subsection{Alta subsectiune}
+
+Citarea se ralizeaza folosind cite~\cite{ex}.
+
+\clearpage
+
+
+\section{Figuri}
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=\columnwidth,keepaspectratio]{images/top.png}}
+\caption[Exemplu de figura. (titlu in lista de figuri)]{Exemplu de figura. (Explicatia pozei)}
+\label{fig:top}
+\end{figure}
+
+\clearpage
+
+
+\section{Fragmente de cod}
+
+\begin{lstlisting}[language=Python,caption={Fragment de cod exemplu},captionpos=b,label={code:sobel}]
+print("Hello world!")
+\end{lstlisting}
+
+\clearpage
+
+
+\section{Tabel}
+
+\begin{table}[htbp]
+    \centering
+    \resizebox{\columnwidth}{!}{
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+         Etapă & Core i7-4710HQ {[}\%{]} & SOC-FPGA {[}\%{]} & 4{\times}ARM A53@1.5MHz {[}\%{]} \\ [0.5ex]\hline\hline
+         Detecție           & 91    & 14,20 & 94,4 \\ \hline
+         Urmărire           & 0,5   & 0,54  & 2,5 \\ \hline
+         Așteptare cadru    & 6     & 81,15 & 2,5 \\ \hline
+         Altele             & 3,5   & 4,1   & 1,23 \\ \hline
+    \end{tabular}}
+    \caption[Exemplu tabel. (text pentru lista de tabele)]{Exemplu tabel. (explicatii pentru tabel)}
+    \label{table:comp}
+\end{table}
+
+\clearpage
+        
+\printbibliography
+\addcontentsline{toc}{section}{Bibliografie}
+\clearpage
+
+
+\section*{Rezumat}
+\addcontentsline{toc}{section}{Rezumat}
+
+(o descriere sumară, în limba română, a principalelor aspecte tratate în proiect – maxim 300 de cuvinte)
+
+\clearpage
+
+
+\section*{Abstract}
+\addcontentsline{toc}{section}{Abstract}
+
+(short description, in english, of main aspects treated in the project)
+
+\clearpage
+
+\end{document}

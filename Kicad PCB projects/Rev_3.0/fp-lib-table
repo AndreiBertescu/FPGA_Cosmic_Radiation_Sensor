@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "FPGA_Library")(type "KiCad")(uri "${KIPRJMOD}/FPGA_Library.pretty")(options "")(descr ""))
+  (lib (name "Footprints_library")(type "KiCad")(uri "${KIPRJMOD}/Footprints_library.pretty")(options "")(descr ""))
+)

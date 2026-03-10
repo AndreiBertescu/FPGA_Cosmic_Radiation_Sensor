@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="4,800.000001 us"></ZoomEndTime>
+      <Cursor1Time time="1,640.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="259"></NameColumnWidth>
+      <ValueColumnWidth column_width="249"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="63" />
+   <wvobject fp_name="/top_tb/DUV/clk_proc_in_p" type="logic">
+      <obj_property name="ElementShortName">clk_proc_in_p</obj_property>
+      <obj_property name="ObjectShortName">clk_proc_in_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/clk_proc_in_n" type="logic">
+      <obj_property name="ElementShortName">clk_proc_in_n</obj_property>
+      <obj_property name="ObjectShortName">clk_proc_in_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/clk_iA" type="logic">
+      <obj_property name="ElementShortName">clk_iA</obj_property>
+      <obj_property name="ObjectShortName">clk_iA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/clk_iB" type="logic">
+      <obj_property name="ElementShortName">clk_iB</obj_property>
+      <obj_property name="ObjectShortName">clk_iB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/clk_iC" type="logic">
+      <obj_property name="ElementShortName">clk_iC</obj_property>
+      <obj_property name="ObjectShortName">clk_iC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/locked" type="logic">
+      <obj_property name="ElementShortName">locked</obj_property>
+      <obj_property name="ObjectShortName">locked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/reset_FF" type="array">
+      <obj_property name="ElementShortName">reset_FF[2:0]</obj_property>
+      <obj_property name="ObjectShortName">reset_FF[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider49">
+      <obj_property name="label">OUTPUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/busy_flat_o" type="logic">
+      <obj_property name="ElementShortName">busy_flat_o</obj_property>
+      <obj_property name="ObjectShortName">busy_flat_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/detector_unit_0/encoder_valid_r" type="logic">
+      <obj_property name="ElementShortName">encoder_valid_r</obj_property>
+      <obj_property name="ObjectShortName">encoder_valid_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/detector_unit_0/bram_seu_valid" type="array">
+      <obj_property name="ElementShortName">bram_seu_valid[0:256]</obj_property>
+      <obj_property name="ObjectShortName">bram_seu_valid[0:256]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/selected_bram_index_o" type="array">
+      <obj_property name="ElementShortName">selected_bram_index_o[8:0]</obj_property>
+      <obj_property name="ObjectShortName">selected_bram_index_o[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/selected_bram_seu_addr_o" type="array">
+      <obj_property name="ElementShortName">selected_bram_seu_addr_o[10:0]</obj_property>
+      <obj_property name="ObjectShortName">selected_bram_seu_addr_o[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/selected_bram_seu_bitmap_o" type="array">
+      <obj_property name="ElementShortName">selected_bram_seu_bitmap_o[17:0]</obj_property>
+      <obj_property name="ObjectShortName">selected_bram_seu_bitmap_o[17:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/selected_scan_timer_o" type="array">
+      <obj_property name="ElementShortName">selected_scan_timer_o[15:0]</obj_property>
+      <obj_property name="ObjectShortName">selected_scan_timer_o[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/selected_logic_seu_o" type="logic">
+      <obj_property name="ElementShortName">selected_logic_seu_o</obj_property>
+      <obj_property name="ObjectShortName">selected_logic_seu_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/is_fifo_empty_o" type="logic">
+      <obj_property name="ElementShortName">is_fifo_empty_o</obj_property>
+      <obj_property name="ObjectShortName">is_fifo_empty_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/is_fifo_almost_empty_o" type="logic">
+      <obj_property name="ElementShortName">is_fifo_almost_empty_o</obj_property>
+      <obj_property name="ObjectShortName">is_fifo_almost_empty_o</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider50">
+      <obj_property name="label">INSERT_ERRORS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/inj_err_index_i" type="array">
+      <obj_property name="ElementShortName">inj_err_index_i[8:0]</obj_property>
+      <obj_property name="ObjectShortName">inj_err_index_i[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/inj_err_address_i" type="array">
+      <obj_property name="ElementShortName">inj_err_address_i[10:0]</obj_property>
+      <obj_property name="ObjectShortName">inj_err_address_i[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/inj_err_data_i" type="array">
+      <obj_property name="ElementShortName">inj_err_data_i[17:0]</obj_property>
+      <obj_property name="ObjectShortName">inj_err_data_i[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/inj_err_valid_i" type="logic">
+      <obj_property name="ElementShortName">inj_err_valid_i</obj_property>
+      <obj_property name="ObjectShortName">inj_err_valid_i</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider85">
+      <obj_property name="label">SPI</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/brown_out" type="logic">
+      <obj_property name="ElementShortName">brown_out</obj_property>
+      <obj_property name="ObjectShortName">brown_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/spi_block/data_i" type="array">
+      <obj_property name="ElementShortName">data_i[79:0]</obj_property>
+      <obj_property name="ObjectShortName">data_i[79:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="Reversed">false</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus594" type="vbus">
+      <obj_property name="label">status_register</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_tb/DUV/spi_block/data_i[79]" type="logic">
+         <obj_property name="ElementShortName">[79]</obj_property>
+         <obj_property name="ObjectShortName">[79]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/DUV/spi_block/data_i[78]" type="logic">
+         <obj_property name="ElementShortName">[78]</obj_property>
+         <obj_property name="ObjectShortName">[78]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/DUV/spi_block/data_i[77]" type="logic">
+         <obj_property name="ElementShortName">[77]</obj_property>
+         <obj_property name="ObjectShortName">[77]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/DUV/spi_block/data_i[76]" type="logic">
+         <obj_property name="ElementShortName">[76]</obj_property>
+         <obj_property name="ObjectShortName">[76]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/DUV/spi_block/data_i[75]" type="logic">
+         <obj_property name="ElementShortName">[75]</obj_property>
+         <obj_property name="ObjectShortName">[75]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/DUV/spi_block/data_i[74]" type="logic">
+         <obj_property name="ElementShortName">[74]</obj_property>
+         <obj_property name="ObjectShortName">[74]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/DUV/spi_block/data_i[73]" type="logic">
+         <obj_property name="ElementShortName">[73]</obj_property>
+         <obj_property name="ObjectShortName">[73]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/DUV/spi_block/data_i[72]" type="logic">
+         <obj_property name="ElementShortName">[72]</obj_property>
+         <obj_property name="ObjectShortName">[72]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/spi_block/data_shreg" type="array">
+      <obj_property name="ElementShortName">data_shreg[79:0]</obj_property>
+      <obj_property name="ObjectShortName">data_shreg[79:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="Reversed">false</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/spi_block/started_o" type="logic">
+      <obj_property name="ElementShortName">started_o</obj_property>
+      <obj_property name="ObjectShortName">started_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/spi_block/spi_cs" type="logic">
+      <obj_property name="ElementShortName">spi_cs</obj_property>
+      <obj_property name="ObjectShortName">spi_cs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/spi_block/spi_cs_i" type="logic">
+      <obj_property name="ElementShortName">spi_cs_i</obj_property>
+      <obj_property name="ObjectShortName">spi_cs_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/spi_block/spi_clk_i" type="logic">
+      <obj_property name="ElementShortName">spi_clk_i</obj_property>
+      <obj_property name="ObjectShortName">spi_clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/spi_data_o" type="logic">
+      <obj_property name="ElementShortName">spi_data_o</obj_property>
+      <obj_property name="ObjectShortName">spi_data_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/lvds_spi_io0_p" type="logic">
+      <obj_property name="ElementShortName">lvds_spi_io0_p</obj_property>
+      <obj_property name="ObjectShortName">lvds_spi_io0_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/lvds_spi_io0_n" type="logic">
+      <obj_property name="ElementShortName">lvds_spi_io0_n</obj_property>
+      <obj_property name="ObjectShortName">lvds_spi_io0_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/lvds_spi_io1_p" type="logic">
+      <obj_property name="ElementShortName">lvds_spi_io1_p</obj_property>
+      <obj_property name="ObjectShortName">lvds_spi_io1_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/lvds_spi_io1_n" type="logic">
+      <obj_property name="ElementShortName">lvds_spi_io1_n</obj_property>
+      <obj_property name="ObjectShortName">lvds_spi_io1_n</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider426">
+      <obj_property name="label">FIFO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/detector_unit_0/output_fifo/write_enable" type="logic">
+      <obj_property name="ElementShortName">write_enable</obj_property>
+      <obj_property name="ObjectShortName">write_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/detector_unit_0/output_fifo/data_i" type="array">
+      <obj_property name="ElementShortName">data_i[54:0]</obj_property>
+      <obj_property name="ObjectShortName">data_i[54:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/detector_unit_0/output_fifo/read_enable" type="logic">
+      <obj_property name="ElementShortName">read_enable</obj_property>
+      <obj_property name="ObjectShortName">read_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/detector_unit_0/output_fifo/data_o" type="array">
+      <obj_property name="ElementShortName">data_o[54:0]</obj_property>
+      <obj_property name="ObjectShortName">data_o[54:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/detector_unit_0/output_fifo/full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/detector_unit_0/output_fifo/empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/detector_unit_0/output_fifo/almost_empty" type="logic">
+      <obj_property name="ElementShortName">almost_empty</obj_property>
+      <obj_property name="ObjectShortName">almost_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/detector_unit_0/output_fifo/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/detector_unit_0/output_fifo/write_ptr" type="array">
+      <obj_property name="ElementShortName">write_ptr[8:0]</obj_property>
+      <obj_property name="ObjectShortName">write_ptr[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/detector_unit_0/output_fifo/read_ptr" type="array">
+      <obj_property name="ElementShortName">read_ptr[8:0]</obj_property>
+      <obj_property name="ObjectShortName">read_ptr[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/detector_unit_0/output_fifo/fifo" type="array">
+      <obj_property name="ElementShortName">fifo[255:0][61:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo[255:0][61:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/detector_unit_0/output_fifo/data_ecc_in" type="array">
+      <obj_property name="ElementShortName">data_ecc_in[61:0]</obj_property>
+      <obj_property name="ObjectShortName">data_ecc_in[61:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/detector_unit_0/output_fifo/data_ecc_out" type="array">
+      <obj_property name="ElementShortName">data_ecc_out[61:0]</obj_property>
+      <obj_property name="ObjectShortName">data_ecc_out[61:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/detector_unit_0/output_fifo/sbit_err" type="logic">
+      <obj_property name="ElementShortName">sbit_err</obj_property>
+      <obj_property name="ObjectShortName">sbit_err</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/detector_unit_0/output_fifo/dbit_err" type="logic">
+      <obj_property name="ElementShortName">dbit_err</obj_property>
+      <obj_property name="ObjectShortName">dbit_err</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider64">
+      <obj_property name="label">.</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/detector_unit_0/\gen_det_elem[3].DETECTOR /bram_seu_addr_o" type="array">
+      <obj_property name="ElementShortName">bram_seu_addr_o[10:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_seu_addr_o[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/detector_unit_0/\gen_det_elem[3].DETECTOR /bram_seu_bitmap_o" type="array">
+      <obj_property name="ElementShortName">bram_seu_bitmap_o[17:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_seu_bitmap_o[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/detector_unit_0/\gen_det_elem[3].DETECTOR /bram_seu_valid_o" type="logic">
+      <obj_property name="ElementShortName">bram_seu_valid_o</obj_property>
+      <obj_property name="ObjectShortName">bram_seu_valid_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/detector_unit_0/\gen_det_elem[3].DETECTOR /logic_seu_o" type="logic">
+      <obj_property name="ElementShortName">logic_seu_o</obj_property>
+      <obj_property name="ObjectShortName">logic_seu_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/detector_unit_0/\gen_det_elem[3].DETECTOR /busy_o" type="logic">
+      <obj_property name="ElementShortName">busy_o</obj_property>
+      <obj_property name="ObjectShortName">busy_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/detector_unit_0/\gen_det_elem[3].DETECTOR /protection_counter" type="array">
+      <obj_property name="ElementShortName">protection_counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">protection_counter[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/detector_unit_0/\gen_det_elem[3].DETECTOR /protections_counter_seu" type="logic">
+      <obj_property name="ElementShortName">protections_counter_seu</obj_property>
+      <obj_property name="ObjectShortName">protections_counter_seu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/DUV/detector_unit_0/\gen_det_elem[3].DETECTOR /bram_seu_valid" type="logic">
+      <obj_property name="ElementShortName">bram_seu_valid</obj_property>
+      <obj_property name="ObjectShortName">bram_seu_valid</obj_property>
+   </wvobject>
+</wave_config>

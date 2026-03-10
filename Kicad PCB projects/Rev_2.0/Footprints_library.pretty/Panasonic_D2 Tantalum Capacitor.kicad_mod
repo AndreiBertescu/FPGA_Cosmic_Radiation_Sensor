@@ -1,0 +1,198 @@
+(footprint "Panasonic_D2 Tantalum Capacitor"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.0125 -3.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f3eb9d7e-2a0c-444d-8123-3bc4353dab21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Panasonic_D2 Tantalum Capacitor"
+		(at -0.3 6.32 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cc8bf0a3-c12d-44af-b5ac-498a3666b064")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.0125 -3.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4566be1e-2ff1-4d8e-9c84-d3a0e5c623e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.0125 -3.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96e0b2f6-1d8d-4e9f-956c-7c7878b646db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.0125 -3.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f03bf9af-cb1a-4e43-978c-0b0b4339312f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.4375 -1.86)
+		(end -3.9625 -1.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6df74a8d-4bbf-4f58-8472-a99d0eae5fc8")
+	)
+	(fp_line
+		(start -4.2 -2.11)
+		(end -4.2 -1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f1c8ad5a-f52a-4bc5-8a5a-5bca1ee194a2")
+	)
+	(fp_line
+		(start -2.216252 2.45)
+		(end 2.191252 2.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4acb1d42-2189-4461-a139-8acd5b210991")
+	)
+	(fp_line
+		(start -2.203752 -2.45)
+		(end 2.203752 -2.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7fd026dc-d5be-4b22-a22a-5dac487d2e6c")
+	)
+	(fp_rect
+		(start -4.6 -2.68)
+		(end 4.5875 2.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "7eddf7c1-e1b8-4066-b9e5-0ba243fa94d0")
+	)
+	(fp_line
+		(start -3.7 2.25)
+		(end -3.6775 -2.26)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4ac806db-9d09-4f4c-adf9-cb83454a0e66")
+	)
+	(fp_line
+		(start -3.6775 -2.26)
+		(end 3.6775 -2.26)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "97a4a5aa-1cc0-477c-959f-30fad6716e7e")
+	)
+	(fp_line
+		(start 3.6775 -2.26)
+		(end 3.6775 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7cdf4765-950c-4a95-bc0e-f88e6886527e")
+	)
+	(fp_line
+		(start 3.6775 2.25)
+		(end -3.6775 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "75e5ac62-6421-42b2-98cd-ee884c2dd58e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1 4.44 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "14099ebf-67ce-4bbb-8177-0d9dd8449d78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.3 0)
+		(layer "F.Fab")
+		(uuid "2e4288b8-547d-406f-8b78-768c7d36a7b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.45 0.05)
+		(size 2 2.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.12987)
+		(uuid "7430b97e-957a-4367-b2e3-0a83b64aa3b4")
+	)
+	(pad "2" smd roundrect
+		(at 3.3875 0.05)
+		(size 2 2.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.12987)
+		(uuid "44db9b02-5350-41b5-8b79-7e2bac675fae")
+	)
+)

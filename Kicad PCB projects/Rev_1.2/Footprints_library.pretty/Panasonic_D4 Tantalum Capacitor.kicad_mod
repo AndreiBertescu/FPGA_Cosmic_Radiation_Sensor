@@ -1,0 +1,215 @@
+(footprint "Panasonic_D4 Tantalum Capacitor"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.1 -3.82 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fbb25f87-07a4-4606-8a78-4d1b4c763579")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Panasonic_D4 Tantalum Capacitor"
+		(at 0.05 4.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0dad835f-9fc4-47f1-9ea0-1c20512ec385")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5da7b97d-3291-4f9d-b718-25d78cc2fd59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b4d61ab-502b-4239-9e0e-ef0f5670c2d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce6a3222-fb1e-4176-b012-463481e4f65d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.4375 -2.1)
+		(end -3.9625 -2.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3456e8b4-a6e0-48e5-9e49-e03e43ce3a37")
+	)
+	(fp_line
+		(start -4.2 -2.35)
+		(end -4.2 -1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8cecdc1e-40e3-49e9-bfe5-7394358e4835")
+	)
+	(fp_line
+		(start -2.203752 -2.61)
+		(end 2.203752 -2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48c6cc29-8a8d-4361-9143-037f39ee1309")
+	)
+	(fp_line
+		(start -2.203752 2.73)
+		(end 2.203752 2.73)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14cb55e8-2337-4e3d-aa78-39f575c1da3e")
+	)
+	(fp_line
+		(start -4.6 -2.92)
+		(end 4.6 -2.92)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "776cb096-8778-4e32-abb9-d9108450a638")
+	)
+	(fp_line
+		(start -4.6 3.04)
+		(end -4.6 -2.92)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6546fa94-a495-4942-8ad5-aa4a594d59ee")
+	)
+	(fp_line
+		(start 4.6 -2.92)
+		(end 4.6 3.04)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f74e2b23-1213-459f-84ff-47380d2ce2b7")
+	)
+	(fp_line
+		(start 4.6 3.04)
+		(end -4.6 3.04)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e8d936d8-281b-4df9-a11c-fed185da2525")
+	)
+	(fp_line
+		(start -3.7 2.67)
+		(end -3.7 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd691c81-7a6d-4294-b622-d4b30ad7a713")
+	)
+	(fp_line
+		(start -3.6775 -2.5)
+		(end 3.6775 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b14f8082-5811-440f-a874-fff8da82478c")
+	)
+	(fp_line
+		(start 3.6775 -2.5)
+		(end 3.6775 2.62)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3c50510a-ef1b-40a8-86ba-32645c569716")
+	)
+	(fp_line
+		(start 3.6775 2.62)
+		(end -3.6775 2.62)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ed99800a-715f-4cc8-b231-0d1b9b0fdaef")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.06 0)
+		(layer "F.Fab")
+		(uuid "56769f80-b994-4c96-95c1-a8433bf73373")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.45 0.05)
+		(size 3 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.12987)
+		(uuid "e6a948ac-0ddf-4ff4-a407-5d790abc735b")
+	)
+	(pad "2" smd roundrect
+		(at 3.3875 0.06)
+		(size 3 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.12987)
+		(uuid "9d0072f4-763e-4f8c-95f0-aa30754fde70")
+	)
+)
