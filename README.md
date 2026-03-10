@@ -69,4 +69,17 @@ S. Popa, A. Bertescu, C. Furtună et al., *“Power and Cross-Section Optimizati
 ---
 
 ## Photos
-![Photo no longer available]("/Kicad PCB projects/Rev_3.2/PCB_photos/JLCPCB_photos/Final_changes.png")
+### <br>Final AICoRS board
+![Photo no longer available](https://github.com/AndreiBertescu/FPGA_Cosmic_Radiation_Sensor/blob/main/Kicad%20PCB%20projects/Rev_3.2/PCB_photos/JLCPCB_photos/Final_changes.png)
+
+### <br>3D render of the AICoRS board
+![Photo no longer available](https://github.com/AndreiBertescu/FPGA_Cosmic_Radiation_Sensor/blob/main/Kicad%20PCB%20projects/Rev_3.2/PCB_photos/KiCad_photos/3D_Render_Enhanced.png)
+
+### <br>First version vs final version of the PCBs
+![Photo no longer available](https://github.com/AndreiBertescu/FPGA_Cosmic_Radiation_Sensor/blob/main/Thesis%20latex%20project/Images/hw_pcbs_horizontal.png)
+
+### <br>BIRDS nanosatellite diagram 
+![Photo no longer available](https://github.com/AndreiBertescu/FPGA_Cosmic_Radiation_Sensor/blob/main/Thesis%20latex%20project/Images/conclusion_birds_sat.png)
+
+### <br>Verilog program diagram
+![Photo no longer available](https://github.com/AndreiBertescu/FPGA_Cosmic_Radiation_Sensor/blob/main/Thesis%20latex%20project/Images/sw_general_diagram.png)
